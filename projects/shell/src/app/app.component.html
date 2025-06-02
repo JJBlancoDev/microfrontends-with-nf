@@ -1,0 +1,19 @@
+<header class="bg-blue-500 text-white p-4 shadow-md w-full">
+  <div class="mx-2 flex items-center justify-between">
+    <div class="text-xl font-bold">
+      Microfrontends App
+    </div>
+
+    <!-- Menú -->
+    <nav class="space-x-6">
+      <a routerLink="" class="hover:underline">Home</a>
+      <a routerLink="todo" class="hover:underline">Todo</a>
+      <a routerLink="products" class="hover:underline">Products</a>
+      <a routerLink="cart" class="hover:underline">Cart</a>
+    </nav>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto my-4">
+    <router-outlet/>
+</main>
